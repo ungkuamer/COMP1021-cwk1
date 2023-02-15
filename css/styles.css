@@ -37,7 +37,7 @@ button {
 button:hover {
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
+    border: 2px solid black;
 }
 
 main {
@@ -92,7 +92,7 @@ footer .copyright {
 
 .big-banner {
     position: absolute;
-    top: 25%;
+    top: 26%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Inter", sans-serif;
@@ -100,6 +100,20 @@ footer .copyright {
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     width: 100vw;
     height: 500px;
+    text-align: center;
+
+}
+
+.small-banner {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Inter", sans-serif;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    width: 100vw;
+    height: 200px;
     text-align: center;
 
 }
@@ -115,9 +129,78 @@ footer .copyright {
     font-size: 3.5em;
 }
 
+.medium-centre-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
 .small-centre-text {
     color: white;
     background-color: transparent;
     font-size: 0.4em;
     font-weight: 300;
+}
+
+.full-three-column {
+    float: left;
+    width: 33%;
+    padding: 15px;
+    margin: 2px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    border: 5px solid black;
+    height: 700px;
+    color: black;
+}
+
+.full-three-column img {
+    position: relative;
+    top: 150px;
+    scale: 200%;
+}
+
+.full-three-column button {
+    position: absolute;
+    top: 510px;
+    left: 80px;
+    right: 80px;
+}
+
+.full-three-column a {
+    position: absolute;
+    top: 580px;
+    left: 50px;
+    right: 50px;
+    text-decoration: underline;
+    text-decoration-line: 2px;
+}
+
+.full-three-column h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.full-three-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.full-three-row {
+    padding: 10px;
+
+}
+
+@media screen and (max-width:1200px) {
+    .full-three-column {
+        width: 100%;
+    }
 }
