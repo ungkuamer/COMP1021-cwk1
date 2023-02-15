@@ -45,7 +45,8 @@ main {
 }
 
 footer {
-    padding: 20px 0;
+    margin-top: 10px;
+    padding: 10px 0;
 }
 
 footer .copyright {
@@ -92,21 +93,23 @@ footer .copyright {
 
 .big-banner {
     position: absolute;
-    top: 26%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Inter", sans-serif;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     width: 100vw;
-    height: 500px;
+    height: 720px;
     text-align: center;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+    from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 
 }
 
 .small-banner {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Inter", sans-serif;
@@ -120,7 +123,7 @@ footer .copyright {
 
 .big-centre-text {
     position: absolute;
-    top: 40%;
+    top: 21%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: transparent;
@@ -131,12 +134,12 @@ footer .copyright {
 
 .medium-centre-text {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: transparent;
     color: white;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 2.5em;
 }
 
@@ -145,6 +148,8 @@ footer .copyright {
     background-color: transparent;
     font-size: 0.4em;
     font-weight: 300;
+    position: relative;
+    top: 5px;
 }
 
 .full-three-column {
@@ -152,9 +157,9 @@ footer .copyright {
     width: 33%;
     padding: 15px;
     margin: 2px;
-    text-align: center;
     position: relative;
-    top: 250px;
+    top: 20px;
+    text-align: center;
     border: 5px solid black;
     height: 700px;
     color: black;
@@ -195,11 +200,12 @@ footer .copyright {
 }
 
 .full-three-row {
-    padding: 10px;
-
+    position: absolute;
+    top: 300px;
+    width: 100vw;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:600px) {
     .full-three-column {
         width: 100%;
     }
