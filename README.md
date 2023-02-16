@@ -28,3 +28,5 @@ for COMP1021 University of Leeds
 - ["Robot Bot Face SVG Vector"](https://www.svgrepo.com/svg/324472/robot-bot-face), by Icojam, licensed under CC BY
 - ["Robot Artificial Intelligence Ai SVG Vector"](https://www.svgrepo.com/svg/324470/robot-artificial-intelligence-ai), by Icojam, licensed under CC BY
 - ["Code File SVG Vector"](https://www.svgrepo.com/svg/502589/code-file), by Ananthanath A X Kalaiism, licensed under PD License
+- Some text in aboutus.html was generated with the help of [GPT-3 through ChatGPT](https://chat.openai.com/)
+- Uncredited images was generated with the help of [DALL E 2](https://openai.com/dall-e-2/)
