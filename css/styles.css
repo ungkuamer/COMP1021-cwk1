@@ -210,6 +210,7 @@ footer .copyright {
     border: 5px solid black;
     height: 700px;
     color: black;
+    border-radius: 15px;
 }
 
 .full-three-column img {
@@ -275,6 +276,34 @@ footer .copyright {
     object-position: 10% 5%;
 }
 
+.small-three-column {
+    float: left;
+    width: 33%;
+    padding: 20px;
+    margin: 2px;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    height: 500px;
+    color: black;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.big-three-column {
+    float: left;
+    width: 33%;
+    padding: 20px;
+    margin: 2px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    height: 600px;
+    color: black;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
 .full-three-row:after {
     content: "";
     display: table;
@@ -306,6 +335,44 @@ footer .copyright {
     position: absolute;
     top: 660px;
     width: 70vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.medium-three-row {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90vw;
+}
+
+.medium-three-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.medium-three-row h2  {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.small-three-column img {
+    scale: 40%;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.big-three-column img{
+    scale: 60%;
+    position: absolute;
+    top: -5%;
     left: 0;
     right: 0;
     margin: auto;
